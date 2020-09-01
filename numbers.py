@@ -1,4 +1,9 @@
 def mainloop():
+    def ask_number():
+        text = input("Vad är din gissning?: ")
+        tal = int(text)
+        return tal
+
     import random
 
     n = random.randint(1, 100)
@@ -7,20 +12,19 @@ def mainloop():
     antal_gissningar = 1
 
     while True:
-        text = input("Din gissning: ")
-        as_number = int(text)
+        answer = ask_number()
 
-        if as_number == n:
+        if answer == n:
             print("Rätt!")
             print("Så här många gånger försökte du:", antal_gissningar)
             break
 
         antal_gissningar = antal_gissningar + 1
-        if as_number < n:
+        if answer < n:
             print("Fel! Mitt nummer är högre... Testa igen!")
 
 
-        if as_number > n:
+        if answer > n:
             print("Fel! Mitt nummer är lägre... Testa igen!")
 
 
