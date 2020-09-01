@@ -15,12 +15,13 @@ def mainloop():
             print("Så här många gånger försökte du:", antal_gissningar)
             break
 
+        antal_gissningar = antal_gissningar + 1
         if as_number < n:
             print("Fel! Mitt nummer är högre... Testa igen!")
-            antal_gissningar= antal_gissningar + 1
+
 
         if as_number > n:
             print("Fel! Mitt nummer är lägre... Testa igen!")
-            antal_gissningar= antal_gissningar + 1
+
 
 mainloop()
