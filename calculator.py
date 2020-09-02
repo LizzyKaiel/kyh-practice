@@ -11,7 +11,7 @@ def multiply(a, b):
     return result
 
 def divide(a, b):
-    result = a + b
+    result = a / b
     return result
 
 def run():
@@ -31,6 +31,9 @@ def run():
         print("Result = " + str(result))
     if answer == "3":
         result = multiply(a, b)
+        print("Result = " + str(result))
+    if answer == "4":
+        result = divide(a, b)
         print("Result = " + str(result))
 
 if __name__ == '__main__':
