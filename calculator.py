@@ -23,6 +23,7 @@ def run():
     b = int(input("B="))
     if answer == "1":
         result = add(a, b)
+        print("Result = " + str(result))
     if answer == "2":
         result = subtract(a, b)
         print("Result = " + str(result))
