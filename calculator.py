@@ -7,7 +7,7 @@ def subtract(a, b):
     return result
 
 def multiply(a, b):
-    result = a + b
+    result = a * b
     return result
 
 def divide(a, b):
@@ -28,6 +28,9 @@ def run():
         print("Result = " + str(result))
     if answer == "2":
         result = subtract(a, b)
+        print("Result = " + str(result))
+    if answer == "3":
+        result = multiply(a, b)
         print("Result = " + str(result))
 
 if __name__ == '__main__':
