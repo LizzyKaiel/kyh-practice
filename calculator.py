@@ -17,7 +17,7 @@ def run():
         result = calc.multiply(a, b)
     if answer == "4":
         result = calc.divide(a, b)
-    print("Result = " + str(result))
+    print(f"Result = {result}")
 
 if __name__ == '__main__':
     run()
