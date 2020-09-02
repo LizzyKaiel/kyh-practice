@@ -11,16 +11,13 @@ def run():
     b = int(input("B="))
     if answer == "1":
         result = calc.add(a, b)
-        print("Result = " + str(result))
     if answer == "2":
         result = calc.subtract(a, b)
-        print("Result = " + str(result))
     if answer == "3":
         result = calc.multiply(a, b)
-        print("Result = " + str(result))
     if answer == "4":
         result = calc.divide(a, b)
-        print("Result = " + str(result))
+    print("Result = " + str(result))
 
 if __name__ == '__main__':
     run()
