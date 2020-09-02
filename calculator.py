@@ -1,4 +1,4 @@
-import calc
+from calc import add,subtract,divide,multiply
 
 def run():
     print("This program will help with simple calculations. What do you want to do?")
@@ -10,13 +10,13 @@ def run():
     a = int(input("A="))
     b = int(input("B="))
     if answer == "1":
-        result = calc.add(a, b)
+        result = add(a, b)
     if answer == "2":
-        result = calc.subtract(a, b)
+        result = subtract(a, b)
     if answer == "3":
-        result = calc.multiply(a, b)
+        result = multiply(a, b)
     if answer == "4":
-        result = calc.divide(a, b)
+        result = divide(a, b)
     print(f"Result = {result}")
 
 if __name__ == '__main__':
