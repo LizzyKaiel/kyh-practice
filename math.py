@@ -6,7 +6,7 @@ def game():
     for i in range(3):
         a = random.randint(1, 10)
         b = random.randint(1, 10)
-        answer = input(str(a) + "+" + str(b))
+        answer = input(f"{a} + {b}")
         number = int(answer)
         if number == a + b:
             print("Rätt!")
@@ -15,7 +15,7 @@ def game():
             print(f"Fel... Det blir {a+b}")
             print("---")
 
-    print("Du fick " + str(correct_answers) + " av 3 rätt.")
+    print(f"Du fick {correct_answers} av 3 rätt.")
 
 if __name__ == '__main__':
     game()
