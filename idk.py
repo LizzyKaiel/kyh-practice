@@ -24,7 +24,7 @@ def run():
 
 
 def write_things(items, kind):
-    print(f"{kind.upper()}")
+    print(f"{kind.upper()} {len(items)}")
     for item in items:
         print(f" {item}")
 
