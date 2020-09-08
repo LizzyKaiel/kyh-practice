@@ -21,10 +21,10 @@ def run():
             colors.append(item)
         else:
             rest.append(item)
-    write_things(cars, 'Cars')
-    write_things(fruits, 'Fruits')
-    write_things(colors, 'Colors')
-    write_things(rest, 'Misc')
+    write_things(sorted(cars), 'Cars')
+    write_things(sorted(fruits), 'Fruits')
+    write_things(sorted(colors), 'Colors')
+    write_things(sorted(rest), 'Misc')
 
 
 def write_things(items, kind):
