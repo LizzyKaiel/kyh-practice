@@ -1,3 +1,0 @@
-1) Vilken funktion används för att skriva ut saker på skärmen? :Print
-2) Hur tar man fram längden på listan i variabeln "fruits"? :len
-3) Vad heter nyckelordet för att göra en loop i Python? :for
