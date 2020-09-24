@@ -1,4 +1,4 @@
-from calc import add,subtract,divide,multiply
+from calc_uppgift6 import add,subtract,divide,multiply
 
 def run():
     print("This program will help with simple calculations. What do you want to do?")
